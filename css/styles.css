@@ -10,6 +10,12 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+ .portImages{
+   object-fit: cover;
+ }
+ .levelTitles {
+   text-align: center;
+ }
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -476,7 +482,7 @@ mark,
 
 .img-fluid {
   max-width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .img-thumbnail {
@@ -10145,6 +10151,7 @@ h3 {
   max-width: 25rem;
   border-radius: 0.5rem;
   overflow: hidden;
+  height: 300px;
 }
 .portfolio .portfolio-item .portfolio-item-caption {
   position: absolute;
